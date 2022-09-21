@@ -1,0 +1,1027 @@
+
+@media (min-width: 1440px){
+    .container{
+        max-width: 1410px;
+    }
+}
+@media (min-width: 1360px){
+    .header_container{
+        max-width: 1349px;
+    }
+    .cm_container{
+        max-width: 1330px;
+    }
+}
+
+
+@media (max-width: 1800px){}
+@media (max-width: 1600px){}
+@media (max-width: 1440px){
+    .header_wrap {
+        padding: 30px  25px;
+    }
+    #how_we_work_slider .owl-nav {
+        right: 90px;
+    }
+}
+
+@media (max-width: 1399px){
+    .solution_img img{
+        width: 430px;
+    }
+    .energy_solution_block + .energy_solution_block {
+        margin-top: 100px;
+    }
+    .solar_battery_block{
+        margin: 0 -30px;
+    }
+    .solar_battery_img, .solar_battery_sec {
+        padding: 0 30px;
+    }
+    .solar_battery_content p {
+        font-size: 19px;
+        margin-top: 153px;
+    }
+    .attached_form_content {
+        min-width: 350px;
+    }
+}
+
+@media (max-width: 1280px){
+    .banner_content::after {
+        left: -19px;
+    }
+   
+    .solution_img img{
+        width: 430px;
+    }
+
+}
+
+@media (max-width: 1199px){
+    .header_wrap {
+        padding: 30px  0;
+    }
+    .banner_wrapper{
+        padding: 15px;
+    }
+    .menu_block li {
+        padding-right: 15px;
+    }
+    .web_btn_wrap a {
+        padding: 10px 20px;
+    }
+    .de_en_menu {
+        margin-left: 10px;
+    }
+    .banner_title h2 {
+        font-size: 80px;
+    }
+    .banner_btn a {
+        margin-top: 29px;
+    }
+    .banner_sec {
+        padding-top: 420px;
+    }
+    
+    .mission_wrapper {
+        top: 37%;
+        padding-top: 100px;
+    }
+    .mission_block {
+        padding: 0;
+    }
+    .mission_card {
+        width: 460px;
+        padding: 30px;
+    }
+    .solution_section h3{
+        font-size: 40px;
+    }
+    .energy_solution_col {
+        margin-left: unset;
+        max-width: unset;
+    }
+    .energy_solution_col .solution_section {
+        margin-top: unset;
+    }
+    .energy_solution_block + .energy_solution_block {
+        margin-top: unset;
+    }
+    .energy_solution_block li {
+        margin-top: 200px;
+    }
+    .energy_solution_wrapper {
+        padding: 0;
+    }
+    .solution_img img{
+        width: 450px;
+    }
+    .solution_img_active .solution_img {
+        position: fixed;
+        left: 60%;
+        top: 63%;
+        transition: all 0.4s ease;
+        transform: translate(-50%,-50%);
+        z-index: 10;
+    }
+    .solution_img {
+        position: absolute;
+        top: 50%;
+        left: 60%;
+        transform: translate(-50% , -50%);
+    }
+
+    .how_we_work_wrapper{
+        padding: 130px 30px 0 30px;
+    }
+    #how_we_work_slider .owl-nav {
+        right: 0;
+        top: -130px;
+    }
+    .how_we_work_title h3{
+        font-size: 50px;
+    }
+    .how_we_work_title p{
+        font-size: 20px;
+    }
+    #how_we_work_slider .owl-nav button svg{
+        width: 50px;
+    }
+    .how_we_work_block {
+        margin-top: 47px;
+    }
+    #how_we_work_slider {
+        margin-top: 60px;
+    }
+    .slider_counter{
+        font-size: 30px;
+    }
+    .count_lines {
+        margin: -14px 10px 0 10px;
+    }
+    .work_section{
+        max-width: 100%;
+        min-height: 480px;  
+    }
+
+    .Video_wrapper {
+        padding: 100px 0 0 0;
+    }
+    .Video_sec {
+        max-width: 645px;
+    }
+    .Video_inner_block h4 br{
+        display: none;
+    }
+    .partners_img_sec{
+        max-width: 694px;
+    }
+    .video_block {
+        min-height: 385px;
+        margin-top: -200px;
+    }
+
+    .solar_battery_wrapper {
+        padding: 100px 0 0 0;
+    }
+    .solar_battery_content h2 BR{
+        display: none;
+    }
+    .solar_battery_content h2 {
+        font-size: 40px;
+    }
+    .solar_battery_content p br{
+        display: none;
+    }
+    .solar_battery_content p{
+        font-size: 18px;
+    }
+
+    .attached_wrapper {
+        padding: 93px 0 0 0;
+    }
+    .attached_block{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .attached_sec{
+        width: 100%;
+    }
+    .attached_content h2 br{
+        display: none;
+    }
+    .attached_content h2{
+        text-align: center;
+        font-size: 50px;
+    }
+    .attached_content P{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .attached_form{
+        margin-top: 60px;
+    }
+    .form_btn a{
+        background-color: #000;
+        color: #fff;
+    }
+    .form_btn a:hover{
+        background: #8ACFF0;
+        color: #000;
+    }
+    .form_content p br{
+        display: none;
+    }
+    .destop_footer_social{
+        display: none;
+    }
+    .tablet_footer_social{
+        display: block;
+        margin-top: 30px;
+    }
+    .footer_wrap{
+        margin: 0 20px 20px 20px;
+    }
+    .footer_wrap footer {
+        padding-bottom: 162px;
+    }
+    .footer_wrapper {
+        padding: 100px 0 0 0;
+    }
+}
+
+@media (max-width: 991px){
+    .banner_wrap{
+        background-image: url(../images/tablet_bg.png);
+        min-height: 790px;
+    }
+    .web_btn_wrap a{
+        padding: 12px;
+        background: #989898;
+        color: #fff;
+    }
+    .logo_wrap{
+        position: relative;
+        opacity: 1;
+        z-index: 499;      
+    }
+    .menu_open .logo_wrap{
+        opacity: 0;
+    }
+    .teblet_logo_block{
+        display: none;
+    }
+    .menu_open .teblet_logo_block {
+        display: block;
+        position: absolute;
+        top: 30px;
+        left: 20px;
+        z-index: 99;
+    }
+
+    .menu_toggle_btn {
+	    cursor: pointer;
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	    flex-direction: column;
+	    position: relative;
+	    z-index: 600;
+        margin-right: 20px;
+	}
+	.menu_toggle_btn span {
+	    width: 25px;
+	    height: 2px;
+	    margin-bottom: 7px;
+	    border-radius: 30px;
+	    background: #fff;
+	    transition: all 0.5s ease;
+	}
+	.menu_toggle_btn span:nth-child(1) {
+	    margin-top: 5px;
+	}
+    .menu_open .menu_toggle_btn{
+        display: none;
+    }
+	.menu_block{
+	    position: fixed;
+	    top: 0px;
+	    left: -100%;
+	    background: #8ACFF0;
+	    width: 100%;
+	    height: 100vh;
+	    display: flex;
+	    align-items: flex-start;
+	    justify-content: center;
+	    z-index: 10;
+	    pointer-events: none;
+	    transition: all 0.6s ease;
+        transition-delay: .2s;
+	}
+    .banner_layer{
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.7);
+        transition: all 0.6s ease;
+    }
+    .menu_open .banner_layer{
+        left: 0px;
+    }
+    .close_menu{
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+	.menu_block li a{
+	    color: #fff;
+	    margin-bottom: 15px;
+        margin-left: 20px;
+        font-weight: 400;
+        font-size: 40px;
+	}
+    .menu_block li {
+        padding-right: 0;
+    }
+	.menu_wrap .menu_block{
+		max-width: 100%;
+		max-height: 100%;
+		flex-flow: column;
+		display: flex;
+		overflow-y: auto;
+	}
+    .menu_open .menu_block{
+		left: 0;
+        width: 85%;
+		pointer-events: visible;
+	}
+    .header_Scoial_block {
+        width: 100%;
+        margin-top: 20px;
+        position: absolute;
+        bottom: 40px;
+    }
+    .header_Scoial_inner_block{
+        margin:0 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-top: 1px solid rgba(255, 255, 255, 0.3);
+        padding: 50px 0 0 0;
+    }
+    .header_bottom_btn a{
+        display: inline-block;
+        background: #FFFFFF;
+        border-radius: 30px;
+        font-weight: 500;
+        font-size: 14px;
+        color: #000000;
+        padding: 13px 30px;
+    }
+    .header_bottom_ic a{
+        margin-left: 20px;
+        transition: all 0.3s ease;
+    }
+    .header_bottom_ic a:hover{
+        transform: translateY(-5px);
+    }
+    .header_Scoial_block, .close_menu{
+        display: block;
+    }
+
+    .banner_title h2 {
+        font-size: 60px;
+    }
+    .banner_content p {
+        font-size: 18PX;
+    }
+    .destop_banner_btn{
+        display: none;
+    }
+    .tablet_banner_btn{
+        display: block;
+    }
+    .banner_title{
+        width: 50%;
+    }
+    .banner_sec {
+        padding-top: 450px;
+    }
+    .company_logo_img img{
+        width: 60px !important;
+    }
+    .compnay_logo_wrap {
+        padding-top: 80px;
+    }
+
+    .the_shortest_title h2{
+        font-size: 50px;
+    }
+    .the_shortest_img {
+        top: 73%;
+    }
+    .the_shortest_col {
+        width: 240px;
+        height: 240px;
+    }
+    .the_shortest_ic p {
+        font-size: 20px;
+    }
+
+    .work_content p {
+        font-size: 17px;
+    }
+    .work_content h4 {
+        font-size: 23px;
+    }
+
+    .newClass .the_shortest_img img {
+        max-width: 100% !important;
+        min-height: 1130px !important;
+        border-radius: 0;
+    }
+    .mission_wrapper {
+        top: 45%;
+        padding-top: unset;
+    }
+    .mission_wrap {
+        padding: 0 0 61px 0;
+        margin-top: -40px;
+    }
+    .newClass .mission_card_2 {
+        transform: translateY(0) scale(1);
+    }
+    .the_shortest_img {
+        top: 83%;
+    }
+    .the_shortest_title {
+        padding-bottom: 170px;
+    }
+    .energy_solution_wrapper {
+        padding: 360px 0 0 0 !important;
+    }
+
+    .mission_card_block {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .mission_card {
+        width: 500px;
+        padding: 50px;
+        min-height: 419px;
+    }
+    .mission_card_2 {
+        transform: unset;
+        margin-top: 100px;
+    }
+    .mission_card_self{
+        align-self: end;
+    }
+
+    .solution_img img {
+        width: 300px;
+    }
+    .solution_section h3 {
+        font-size: 36px;
+    }
+    .solution_section p {
+        font-size: 18px;
+    }
+    
+    .energy_solution_block li {
+        margin-top: 120px;
+    }
+    .energy_solution_wrapper {
+        padding: 50px 0 0 0;
+    }
+    .solar_battery_content h2 {
+        font-size: 34px;
+    }
+    .solar_battery_block {
+        margin: 0 -15px;
+    }
+    .solar_battery_img, .solar_battery_sec {
+        padding: 0 15px;
+    }
+    .solar_battery_content p {
+        font-size: 16px;
+        margin-top: 63px;
+    }
+    .solar_battery_block{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .solar_battery_img, .solar_battery_sec {
+        padding: 0 15px;
+        width: 100%;
+    }
+    .solar_battery_content{
+        margin-top: 60px;
+        text-align: center;
+    }
+    .solar_battery_content p {
+        font-size: 16px;
+        margin-top: 40px;
+    }
+    .attached_form_content {
+        min-width: 290px;
+    }
+    .solution_img {
+        position: absolute;
+        top: 50%;
+        left: 83%;
+        transform: translate(-50% , -50%);
+        width: 510px;
+    }
+    .solution_img_active .solution_img {
+        position: fixed;
+        left: 83%;
+        top: 63%;
+        transition: all 0.4s ease;
+        transform: translate(-50%,-50%);
+        z-index: 10;
+        width: 510px;
+    }
+    .footer_info p a {
+        margin: 0 14px;
+    }
+    .newsletter_list, .cm_menu_footer input{
+        width: 100%;
+    }
+    .destop_footer_social.footer_social ul{
+        display: flex;
+        margin-bottom: 25px;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer_wrap footer {
+        padding-bottom: 52px;
+    }
+    
+}
+
+@media (max-width: 767px){
+    .banner_wrap::after{
+        display: none;
+    }
+    .banner_sec{
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding-top: 350px;
+        position: relative;
+        z-index: 0;
+    }
+    .banner_title {
+        width: unset;
+    }
+    .banner_content::after{
+        display: none;
+    }
+    .banner_content{
+        margin-top: 20px;
+    }
+    .company_logo_img img{
+        width: 42px !important;
+    }
+    .compnay_logo_wrap {
+        padding-top: 50px;
+    }
+
+    .the_shortest_wrapper {
+        padding-top: 50px;
+    }
+    .the_shortest_title h2 {
+        font-size: 40px;
+    }
+    .the_shortest_title p br{
+        display: none;
+    }
+    .the_shortest_title p{
+        font-size: 18px;
+    }
+    .the_shortest_block {
+        margin-top: 35px;
+    }
+    .the_shortest_ic img{
+        width: 50px;
+    }
+    .the_shortest_col {
+        width: 180px;
+        height: 180px;
+    }
+    
+    .the_shortest_ic p {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .energy_solution_col_mobile{
+        display: none;
+    }
+    .solution_img_3, .solution_img_2{
+        display: none;
+    }
+    .energy_solution_block li {
+        margin-top: 300px;
+    }
+    .solution_img {
+        position: absolute;
+        top: -70%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+    }
+    
+
+    .mission_wrapper {
+        top: 38%;
+        padding-top: unset;
+    }
+    .the_shortest_title {
+        padding-bottom: 290px;
+    }
+    .the_shortest_wrapper {
+        padding-top: 50px;
+        margin-bottom: 320px;
+    }
+
+    .work_section{
+        max-width: 100%;
+    }
+    .how_we_work_title h3 {
+        font-size: 40px;
+        text-align: center;
+    }
+    .how_we_work_title p br{
+        display: none;
+    }
+    .how_we_work_title p{
+        text-align: center;
+        font-size: 18px;
+    }
+    .how_we_work_wrapper {
+        padding: 85px 15px 0 15px;
+    }
+    #how_we_work_slider .owl-nav button svg {
+        width: 40px;
+    }
+    .count_lines {
+        width: 22px;
+    }
+    .work_section {
+        min-height: 464px;
+        padding: 30px;
+    }
+    #how_we_work_slider {
+        margin-top: 40px;
+    }
+    #how_we_work_slider .owl-nav {
+        top: -110px;
+    }
+
+    .Video_sec {
+        max-width: 465px;
+    }
+    .video_man_img img{
+        width: 100px;
+    }
+    .Video_inner_block h4{
+        font-size: 25px;
+    }
+    .partners_img_sec {
+        max-width: 454px;
+    }
+    .energy_Video_block {
+        padding: 100px 0 215px 0;
+    }
+    .video_block {
+        min-height: 285px;
+        margin-top: -160px;
+    }
+    .attached_form_block{
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: 0;
+    }
+    .attached_form_block_2{
+        margin: 0;
+    }
+    .attached_form_block li{
+        padding: 0;
+    }
+    .attached_form_content {
+        min-width: 100%;
+    }
+    .attached_form_block li{
+        margin-top: 40px;
+    }
+    .attached_form {
+        margin-top: 20px;
+    }
+    .attached_form_content input{
+        padding: 20px 0;
+    }
+    .form_btn{
+        text-align: center;
+    }
+    .form_btn a, .form_content p{
+        margin-top: 40px;
+    }
+    .footer_details{
+        text-align: center;
+    }
+    .footer_details > p{
+        margin: 20px auto 0;
+        font-size: 18px;
+        max-width: 300px;   
+    } 
+    .footer_social ul{
+        display: none;
+    }
+    .destop_footer_social{
+        display: block;
+    }
+    .footer_copy_block{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .copyright p{
+        margin-top: 25px;
+    }
+
+    .energy_solution_wrapper{
+        display: none;
+    }
+
+    .scenes {
+        position: relative;
+        display: block;
+    }
+    
+    .scenes-wrap,
+    .scenes-items {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        min-height: 600px;
+    }
+    
+    .scene {
+        display: flex;
+        width: 100%;
+        height: 100vh;
+        align-items: center;
+        padding: 0rem 10%;
+        min-height: 600px;
+    }
+    
+    .scene-inner {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .scene-inner .image img {
+        position: relative;
+        z-index: 1;
+        width: 300px;
+        margin-bottom: 100px;
+    }
+    .scene-inner .image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 406px;
+    }
+    .content p{
+        margin-top: 20px;
+    }
+    .scene-inner .image .color {
+        /* width: 100%; */
+        height: 100%;
+        z-index: 2;
+        position: absolute;
+        top: 0;
+        left: 0;
+        -webkit-mask-size: 100%;
+        -webkit-mask-repeat: no-repeat;
+        -webkit-mask-position: center top;
+        -webkit-mask-image: url(https://tracta-codepen-assets.s3.ap-southeast-2.amazonaws.com/shape.svg);
+        mask-image: url(https://tracta-codepen-assets.s3.ap-southeast-2.amazonaws.com/shape.svg);
+        mask-position: center top;
+        mask-repeat: no-repeat;
+        mask-size: 100%;
+    }
+    
+    .scene-inner .image .color .color-inner {
+        width: 100%;
+        height: 100%;
+        
+    }
+    
+    .scene-inner .image img {
+        position: relative;
+        z-index: 1;
+    }
+
+}
+
+@media (max-width: 575px){
+    .banner_wrapper {
+        padding: 10px;
+    }
+    .de_en_menu{
+        display: none;
+    }
+    .web_btn_wrap a {
+        padding: 10px;
+        background: #989898;
+        font-size: 14px;
+    }
+    .menu_toggle_btn {
+        margin-right: 9px;
+    }
+    .logo_wrap a img, .teblet_logo_block a img{
+        width: 110px;
+    }
+    .menu_block li a {
+        font-size: 30px;
+    }
+    .menu_open .menu_block {
+        width: 80%;
+    }
+    .header_bottom_btn a {
+        font-size: 12px;
+        padding: 12px;
+    }
+    .header_bottom_ic a svg{
+        width: 30px;
+    }
+    .header_bottom_ic a {
+        margin-left: 9px;
+    }
+    .banner_sec {
+        padding-top: 300px;
+    }
+    .banner_content p br{
+        display: none;
+    }
+    .header_wrapper {
+        top: 0;
+    }
+    .mission_wrapper{
+        display: none;
+    }
+    .the_shortest_img{
+        display: none;
+    }
+    .the_shortest_title {
+        padding-bottom: 0px;
+    }
+    .the_shortest_wrapper {
+        padding-top: 50px;
+        margin-bottom: 0;
+    }
+    .the_shortest_row{
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .the_shortest_block {
+        margin-top: 20px;
+    }
+    .the_shortest_row li{
+        margin-top: 30px;
+    }
+    .the_shortest_row_2{
+        margin: 0;
+    }
+    .the_shortest_col {
+        width: 300px;
+        height: 300px;
+    }
+    .the_shortest_ic img {
+        width: unset;
+    }
+    .the_shortest_ic p {
+        font-size: unset;
+        margin-top: unset;
+    }
+    .mission_card{
+        width: 100%;
+        padding: 50px 30px;
+        min-height: 300px;
+    }
+    .mission_card_self {
+        align-self: unset;
+    }
+    .mission_card p br{
+        display: none;
+    }
+    .mission_card p{
+        font-size: 18px;
+        margin-top: 54px;
+    }
+    .mission_wrap {
+        padding: 61px 0;
+        min-height: 100%;
+    }
+    .mission_card_2 {
+        margin-top: 50px;
+    }
+    .solution_img {
+        width: 100%;
+        top: -80%;
+    }
+    .solution_section h3 {
+        font-size: 30px;
+    }
+    .solution_section p br{
+        display: none;
+    }
+    .energy_solution_block li {
+        margin-top: 320px;
+    }
+    .Video_sec {
+        max-width: 285px;
+    }
+    .Video_inner_block h4 {
+        font-size: 22px;
+    }
+    .video_block {
+        min-height: 190px;
+        margin-top: -160px;
+    }
+    .partners_img_sec img {
+        width: 33px;
+        height: 33px;
+    }
+    .Video_wrap {
+        padding: 0 16px;
+    }
+    .cm_menu_footer {
+        width: 100%;
+    }
+    .footer_menu_and_newsletter{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .copyright p{
+        font-size: 16px;
+    }
+    .footer_wrap {
+        margin: 0 15px 15px 15px;
+    }
+}
+
+@media (max-width: 450px){}
+
+@media (max-width: 400px){}
+
+@media (max-width: 374px){
+    .menu_block li a {
+        font-size: 24px;
+    }
+    .header_bottom_ic a {
+        margin-left: 1px;
+    }
+    .the_shortest_col {
+        width: 280px;
+        height: 280px;
+    }
+    .work_section {
+        padding: 20px;
+    }
+    .work_content h4 {
+        font-size: 20px;
+    }
+    .work_content p {
+        font-size: 16px;
+    }
+    .solar_battery_content h2 {
+        font-size: 32px;
+    }
+    .cm_menu_footer > h4{
+        font-size: 14px;
+    }
+    .copyright p {
+        font-size: 13px;
+    }
+    .footer_info p a {
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+
+
+
+

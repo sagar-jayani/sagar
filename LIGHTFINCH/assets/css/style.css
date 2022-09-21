@@ -1,0 +1,905 @@
+
+/*********************  Default-CSS  *********************/
+:root {
+    scroll-behavior: unset;
+}
+
+@font-face {
+    font-family: Helvetica_Light;
+    src: url(../fonts/HelveticaNowText-Light.ttf);
+}
+@font-face {
+    font-family: Helvetica_Medium;
+    src: url(../fonts/HelveticaNowText-Medium.ttf);
+}
+@font-face {
+    font-family: Helvetica_Regular;
+    src: url(../fonts/HelveticaNowText-Regular.ttf);
+}
+
+@font-face {
+    font-family: Hellix_Medium;
+    src: url(../fonts/Hellix-Medium.ttf);
+}
+@font-face {
+    font-family: Hellix_Regular;
+    src: url(../fonts/Hellix-Regular.ttf);
+}
+@font-face {
+    font-family: Hellix_SemiBold;
+    src: url(../fonts/Hellix-SemiBold.ttf);
+}
+
+
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0
+}
+body {
+  	margin: 0;
+  	font-family: Helvetica_Regular;
+  	overflow-x: hidden;
+  	color: #2B2D42;
+	background-color: #fff;
+  	font-size: 18px;
+	line-height: 1.5;
+}
+a,
+span,
+a:hover,
+a:active,
+button {
+	text-decoration: none;
+}
+a,
+div a:hover,
+div a:active,
+div a:focus,
+button {
+	text-decoration: none;
+	-webkit-transition: all 0.5s ease 0s;
+	-moz-transition: all 0.5s ease 0s;
+	-ms-transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
+	transition: all 0.5s ease 0s;
+}
+p {
+  	margin: 0;
+}
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+	margin: 0;
+}
+ul, li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+img {
+	max-width: 100%;
+}
+.cm-overflow{
+	overflow: hidden;
+	touch-action: none;
+}
+.row{
+	margin: 0 -15px;
+}
+.container{
+	padding: 0 15px;
+}
+.col, [class*=col-]{
+	padding: 0 15px;
+}
+/*********************  Default-CSS  End *********************/
+
+/*============== Header Css Start ===============*/
+.header_wrapper {
+    position: absolute;
+    top: 30px;
+    width: 100%;
+    z-index: 1;
+}
+.header_wrap{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 25px 0;
+}
+.menu_wrap {
+    display: flex;
+    align-items: center;
+}
+.menu_block {
+    display: flex;
+    align-items: center;
+}
+.menu_block li {
+    padding-right: 40px;
+}
+.menu_block li a {
+    display: inline-block;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: all 0.4s ease;
+}
+.menu_block li a:hover{
+	color: #000;
+}
+.de_en_menu {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+.de_en_menu li a {
+    color: #fff;
+    margin-left: 10px;
+}
+.web_btn_wrap a{
+	display: inline-block;
+	background: #CEE9FA;
+    border-radius: 10px;
+	font-size: 16px;
+    color: #000000;
+	padding: 13px 30px;
+	margin-left: 10px;
+	transition: all 0.3s ease;
+}
+.web_btn_wrap a:hover{
+	background: #8ACFF0;
+}
+.de_en_menu li:last-child{
+	color: #FFFFFF;
+	opacity: 0.5;
+}
+.teblet_logo_block, .header_Scoial_block, .close_menu{
+	display: none;
+}
+/*============== Header Css End ===============*/
+
+/*============== Banner Css Start ===============*/
+.banner_wrapper{
+    padding: 30px;
+}
+.banner_wrap{
+	background-image: url(../images/back.gif);
+	width: 100%;
+	min-height: 760px;
+	border-radius: 15px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	overflow: hidden;
+}
+.banner_wrap::after{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 50%);
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+}
+.banner_sec{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 350px;
+}
+.banner_title h2{
+	font-family: Helvetica_Medium;
+	font-size: 130px;
+	color: #FFFFFF;
+	position: relative;
+	z-index: 1;
+}
+.banner_content{
+	position: relative;
+	z-index: 1;
+}
+.banner_content::after{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: -88px;
+	height: 100%;
+	width: 1px;
+	background: #fff;
+}
+.banner_content p{
+	font-weight: 400;
+	font-size: 24px;
+	color: #FFFFFF;
+}
+.banner_btn a{
+	display: inline-block;
+	font-weight: 400;
+	font-size: 16px;	
+	color: #FFFFFF;
+	border: 1px solid #FFFFFF;
+	border-radius: 10px;
+	padding: 13px 30px;
+	margin-top: 49px;
+	transition: all 0.3s ease;
+}
+.banner_btn a:hover{
+	background: #fff;
+	color: #000;
+}
+.tablet_banner_btn{
+	display: none;
+}
+/*============== Banner Css End ===============*/
+
+/*============== Compnay Logo Slider Css Start ===============*/
+.compnay_logo_wrap{
+	padding-top: 102px;
+}
+.owl-carousel .owl-item img {
+    display: block;
+    width: unset;
+}
+.company_logo_img{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+.company_logo_img::after{
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100%;
+	width: 1px;
+	background: rgba(0, 0, 0, 0.15);
+}
+.owl-dots, .owl-nav{
+	display: none;
+}
+/*============== Compnay Logo Slider Css End ===============*/
+
+/*============== The shortest Css Start ===============*/
+.the_shortest_wrapper{
+	padding-top: 102px;
+	position: relative;
+}
+.the_shortest_wrap{
+	text-align: center;
+}
+.the_shortest_title h2{
+	font-weight: 600;
+	font-size: 70px;	
+	color: #303030;
+	font-family: Hellix_Medium;
+}
+.the_shortest_title p{
+	font-weight: 400;
+	font-size: 20px;
+	color: #474747;
+	margin-top: 20px;
+}
+.the_shortest_block{
+	margin-top: 76px;
+}
+.the_shortest_row{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.the_shortest_col{
+	width: 300px;
+	height: 300px;
+	border: 2px solid #8ACFF0;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.the_shortest_ic p{
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 1.2;	
+	color: #474747;
+	margin-top: 20px;
+}
+.the_shortest_row_2{
+	margin-top: 100px;
+}
+
+.the_shortest_img{
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	z-index: 10;
+}
+.the_shortest_img img{
+	max-width: 650px;
+	min-height: 650px;
+	object-fit: cover;
+	border-radius: 50%;
+	transition: all 1s ease;
+}
+.newClass .the_shortest_img img{
+     max-width: 100% !important;
+	 min-height: 780px !important;
+	 border-radius: 0;
+}
+
+
+
+/*============== The shortest Css End ===============*/
+
+/*============== Mission Card Css Start ===============*/
+.mission_wrapper{
+   padding-top: 150px;
+   position: absolute;
+   top: 31%;
+   left: 0;
+   width: 100%;
+}
+
+.mission_block{
+	padding: 0 30px;
+	position: relative;
+	z-index: 12;
+}
+.mission_card{
+	width: 500px;
+	min-height: 460px;
+	background: rgba(255, 255, 255, 0.95);
+	border-radius: 10px;
+	padding: 50px;
+	transition: all 1.8s ease;
+	transition-delay: .5s;
+	opacity: 0;
+	visibility: hidden;
+	transform: scale(0.5);
+}
+
+.newClass .mission_card{
+	opacity: 1;
+	transform: scale(1);
+	visibility: visible;
+}
+
+.mission_card h2{
+	font-weight: 600;
+	font-size: 40px;
+	color: #303030;
+	font-family: Hellix_Medium;
+}
+.mission_card p{
+	margin-top: 150px;
+	font-weight: 400;
+	font-size: 20px;
+	color: #474747;
+}
+.mission_card_block{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+/* .mission_card_2{
+	transform: translateY(130px) ;
+} */
+.newClass .mission_card_2{
+	transform: translateY(130px) scale(1);
+}
+.the_shortest_title{
+	padding-bottom: 50px;
+}
+/*============== Mission Card Css End ===============*/
+
+/*============== Energy solution Css Start ===============*/
+.energy_solution_wrapper{
+	padding: 150px 0 0 0;
+}
+.energy_solution_block {
+    
+}
+
+.solution_section h3{
+	font-weight: 500;
+	font-size: 50px;
+	color: #303030;
+	font-family: Hellix_Medium;
+}
+.solution_section p{
+	font-weight: 400;
+	font-size: 20px;
+	color: #474747;
+	margin-top: 20px;
+}
+.energy_solution_col {
+    margin-left: auto;
+    max-width: 455px;
+}
+.energy_solution_col .solution_section{
+	margin-top: 375px;
+}
+.energy_solution_block{
+	position: relative;
+}
+
+.solution_img{
+	position: absolute;
+	top: 58%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.solution_img_active .solution_img{
+	position: fixed ;
+	left: 50% ;
+	top: 63% ;
+	transition: all 0.4s ease ;
+	transform: translate(-50%,-50%) ;
+	z-index: 10;
+}
+
+.solution_img_active .solution_img_3{
+	display: none;
+}
+/* .img_show .solution_img_3{
+	display: block;
+} */
+
+
+.energy_solution_block + .energy_solution_block{
+	margin-top: 210px;
+}
+.solution_img  img{
+	width: 570px;
+}
+/*============== Energy solution Css End ===============*/
+
+/*============== How we work Css Start ===============*/
+.how_we_work_wrapper{
+    padding: 240px 0 0 70px;
+}
+.how_we_work_title h3{
+	font-weight: 600;
+	font-size: 70px;
+	color: #303030;
+	font-family: Hellix_Medium;
+}
+.how_we_work_title p{
+	font-weight: 400;
+	font-size: 20px;
+	color: #303030;
+	margin-top: 20px;
+}
+.count_lines {
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    height: 3px;
+    margin: -17px 10px 0 10px;
+    border-radius: 30px;
+	background: #E1E1E1;
+}
+.slider_counter{
+	font-size: 40px;
+	color: #E1E1E1;
+	font-family: Hellix_Medium;
+}
+.slider_counter span.active{
+	color: #303030;
+}
+.how_we_work_block{
+	margin-top: 76px;
+}
+#how_we_work_slider{
+	margin-top: 70px;
+}
+.work_section{
+	max-width: 447px;
+	min-height: 564px;
+	border: 1px solid #000000;
+    border-radius: 10px;
+	background: #fff;
+	padding: 40px;
+	transition: all 0.3s ease;
+}
+.work_content h2{
+	font-size: 30px;
+	color: #303030;
+	font-family: Hellix_Medium;
+	transition: all 0.3s ease;
+}
+.work_content .day_slider_ic{
+	margin-top: 130px;
+}
+.work_content h4{
+	font-size: 25px;
+	color: #303030;
+	font-family: Hellix_Medium;
+	margin-top: 50px;
+	transition: all 0.3s ease;
+}
+.work_content p{
+	font-size: 18px;
+	color: #474747;
+	margin-top: 20px;
+	transition: all 0.3s ease;
+}
+.work_section:hover{
+	background: #8ACFF0;
+	border-color: #8ACFF0;
+}
+.work_section:hover .work_content h2,
+.work_section:hover .work_content h4,
+.work_section:hover .work_content p{
+     color: #fff;
+}
+#how_we_work_slider .owl-stage{
+	padding-left: 0 !important;
+}
+#how_we_work_slider .owl-nav {
+    display: block;
+    position: absolute;
+    top: -140px;
+    right: 97px;
+}
+#how_we_work_slider .owl-nav .owl-prev{
+	transform: rotate(180deg);
+	margin-right: 20px;
+}
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: transparent;
+    color: transparent;
+    text-decoration: none;
+}
+#how_we_work_slider .owl-nav button svg path,
+#how_we_work_slider .owl-nav button:hover svg circle{
+	transition: all 0.3s ease;
+}
+#how_we_work_slider .owl-nav button:hover svg path{
+	fill: #8ACFF0;
+}
+#how_we_work_slider .owl-nav button:hover svg circle{
+	stroke: #8ACFF0;
+}
+/*============== How we work Css End ===============*/
+
+/*============== Energy Video Css Start ===============*/
+.Video_wrapper{
+	padding: 150px 0 0 0;
+}
+.Video_wrap{
+	padding: 0 30px;
+}
+.energy_Video_block{
+	background: #CEE9FA;
+    border-radius: 10px;
+	padding: 100px 0 285px 0;
+}
+.Video_sec{
+	max-width: 1080px;
+	margin: 0 auto;
+}
+.Video_inner_block{
+	text-align: center;
+}
+.Video_inner_block h5{
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #303030;
+	font-family: Hellix_Medium;
+	margin-top: 10px;
+}
+.Video_inner_block p{
+	font-size: 20px;
+	color: #303030;
+	opacity: 0.8;
+	line-height: 2;
+	font-family: Hellix_Regular;
+}
+.Video_inner_block h4{
+	font-size: 35px;
+	text-align: center;
+	color: #303030;
+	margin-top: 30px;
+}
+.partners_img_sec {
+    position: relative;
+	max-width: 1080px;
+	margin: 0 auto;
+}
+.video_block {
+    position: relative;
+    min-height: 600px;
+    margin-top: -180px;
+}
+.video_block .gr_1 video{
+	border-radius: 10px;
+}
+.video_block video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+}
+.partners_img_sec img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    height: 80px;
+}
+
+/*============== Energy Video Css End ===============*/
+
+/*============== Solar Battery Css Start ===============*/
+.solar_battery_wrapper{
+	padding: 150px 0 0 0;
+}
+.solar_battery_block{
+	display: flex;
+	justify-content: space-between;
+	margin: 0 -50px;
+}
+.solar_battery_content h2{
+	font-size: 60px;
+	color: #303030;
+	font-family: Hellix_Medium;
+}
+.solar_battery_content p{
+	font-size: 20px;
+	color: #474747;
+	margin-top: 254px;
+}
+.solar_battery_img, .solar_battery_sec {
+	width: 50%;
+	padding: 0 50px;
+}
+/*============== Solar Battery Css End ===============*/
+
+/*============== Attached Section Css Start ===============*/
+.attached_wrapper{
+	padding: 150px 0 0 0;
+}
+.attached_block{
+	display: flex;
+	justify-content: space-between;
+}
+.attached_content h2{
+	font-size: 60px;
+	color: #303030;
+	line-height: 1;
+	font-family: Hellix_SemiBold
+}
+.attached_content P{
+	font-size: 20px;
+	color: #474747;
+	margin-top: 15PX;
+}
+.attached_form_block {
+    display: flex;
+    justify-content: space-between;
+	margin: 0 -26px;
+}
+.attached_form_block li{
+	padding: 0 26px;
+	width: 100%;
+}
+.attached_form_content{
+	min-width: 430px;
+}
+.attached_form_content label{
+	display: inline-block;
+	font-size: 20px;
+	color: #303030;
+	font-family: Helvetica_Medium;
+}
+.attached_form_content input, .attached_form_content textarea{
+	width: 100%;
+	border: none;
+	padding: 35px 0;
+	border-bottom: 1px solid #cac9c9;
+	resize: none;
+	border-radius: 0;
+	-webkit-appearance: none;
+	appearance: none;
+}
+.attached_form_content input:focus, .attached_form_content textarea:focus{
+	outline: none;
+}
+.attached_form_content input::placeholder ,.attached_form_content textarea::placeholder{
+	color: #000000;
+	opacity: 0.3;
+}
+.attached_form_block_2{
+	margin-top: 50px;
+}
+/*Input Phone Number Arrow Hide*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.form_content p{
+	margin-top: 50px;
+	font-size: 14px;
+	color: #474747;
+	font-family: Helvetica_Light;
+}
+.form_btn a{
+	display: inline-block;
+	font-size: 16px;
+	color: #000000;
+	padding: 13px 30px;
+	margin-top: 53px;
+	background: #CEE9FA;
+	border-radius: 10px;
+	font-family: Helvetica_Medium;
+	transition: all 0.3s ease;
+}
+.form_btn a:hover{
+	background: #8ACFF0;
+	/* color: #8ACFF0; */
+}
+/*============== Attached Section Css End ===============*/
+
+/*============== Footer Css Start ===============*/
+.footer_wrapper{
+   padding: 150px 0 0 0;
+}
+.footer_wrap{
+	background: #303030;
+	border-radius: 10px;
+	margin:0 30px 30px 30px;
+	padding: 30px 0 50px;
+}
+.footer_wrap footer{
+	padding-bottom: 228px;
+}
+.footer_details > p{
+	font-family: Helvetica_Light;
+	font-size: 20px;
+	line-height: 1.45;
+	color: #FFFFFF;
+	margin-top: 15px;
+	max-width: 380px;
+}
+.footer_menu_and_newsletter{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.cm_menu_footer{
+	margin-top: 20px;
+}
+.cm_menu_footer > h4{
+	font-family: Hellix_SemiBold;
+	font-size: 18px;
+	line-height: 1.2;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	margin-bottom: 28px;
+}
+.footer_menu_list > ul a{
+	font-family: Helvetica_Light;
+	font-size: 18px;
+	line-height: 2.5;
+	color: #FFFFFF;
+}
+.footer_menu_list > ul a:hover{
+	color: #8ACFF0;
+}
+.cm_menu_footer input{
+	padding: 12px 55px 12px 20px;
+	width: 340px;
+	height: 49px;
+	border: 1px solid #FFFFFF;
+	border-radius: 10px;
+	outline: none;
+	background-color: transparent;
+	font-family: Helvetica_Regular;
+	font-size: 16px;
+	line-height: 1;
+	color: rgba(255, 255, 255, 1);
+	appearance: none;
+	-webkit-appearance: none;
+}
+.cm_menu_footer input::placeholder{
+	line-height: 1;
+	color: rgba(255, 255, 255, 0.5);	
+}
+.footer_form{
+	position: relative;
+}
+.send_btn{
+	position: absolute;
+	top: 19px;
+	right: 20px;
+	border: none;
+	background-color: transparent;
+	outline: none;
+	line-height: 0;
+}
+.footer_form:hover .send_btn{
+	transform: translateX(3px);
+}
+.copy_right_wrap .row{
+	align-items: center;
+}
+.footer_social ul{
+	display: flex;
+	align-items: center;
+}
+.footer_social ul li + li{
+	margin-left: 23px;
+}
+.footer_social ul li a{
+	width: 40px;
+	height: 40px;
+	border: 1px solid #FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50px;
+}
+.footer_social ul li a:hover{
+	background-color: #8ACFF0;
+}
+.footer_copy_block{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.footer_info p a{
+	display: inline-block;
+	font-size: 18px;
+	color: #FFF;
+	margin-left: 40px;
+	transition: all 0.3s ease;
+}
+.footer_info p a:hover{
+	color: #8ACFF0;
+}
+.copyright p{
+	font-size: 18px;
+	color: #FFFFFF;
+}
+.tablet_footer_social{
+	display: none;
+}
+/*============== Footer Css End ===============*/
+
+
+/* 
+    font-family: Helvetica_Black;
+	font-family: Helvetica_Bold;
+	font-family: Helvetica_ExtraBold;
+	font-family: Helvetica_ExtraLight;
+	font-family: Helvetica_Light;
+	font-family: Helvetica_Medium;
+	font-family: Helvetica_Regular;
+
+	font-family: Hellix_Black;
+	font-family: Hellix_Bold;
+	font-family: Hellix_ExtraBold;
+	font-family: Hellix_Light;
+	font-family: Hellix_Medium;
+	font-family: Hellix_Regular;
+	font-family: Hellix_SemiBold;
+
+*/
+
+.scenes{
+	display: none;
+}
+
